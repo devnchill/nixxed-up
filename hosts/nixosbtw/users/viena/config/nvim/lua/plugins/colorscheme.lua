@@ -26,3 +26,11 @@ require("gruvbox").setup({
 })
 
 vim.cmd("colorscheme gruvbox")
+
+vim.cmd([[
+  highlight Normal guibg=#1d2021 ctermbg=235
+  highlight NormalFloat guibg=#1d2021 ctermbg=235
+  highlight FloatBorder guibg=#1d2021 ctermbg=235
+  highlight Pmenu guibg=#1d2021 ctermbg=235
+]])
+
